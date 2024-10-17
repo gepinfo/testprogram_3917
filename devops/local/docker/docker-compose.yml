@@ -251,7 +251,7 @@ services:
     image: systementry-3917
     container_name: systementry-3917
     ports: 
-      - 8210:8210
+      - 8212:8212
     env_file: .env
     depends_on:
       - mongo
@@ -272,7 +272,7 @@ services:
     image: employee-3917
     container_name: employee-3917
     ports: 
-      - 8211:8211
+      - 8213:8213
     env_file: .env
     depends_on:
       - mongo
